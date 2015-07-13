@@ -1,0 +1,9 @@
+<h2>{{post.title}}</h2>
+{{#if post.date}}
+    <time>{{post.date}}</time>
+{{/if}}
+<img src="{{post.heroImage}}" />
+<details>
+    <summary>{{post.excerpt}}</summary>
+    {{{post.content}}}
+</details>
