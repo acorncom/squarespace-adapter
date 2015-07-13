@@ -22,9 +22,8 @@ module.exports = function(environment) {
     };
 
     ENV.APP.CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
-    ENV.APP.SQUARESPACE_HOST = 'http://www.squarespace.com';
-    ENV.APP.READIBILITY_PARSER_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
-    ENV.APP.READIBILITY_PARSER_HOST = 'https://readability.com/api/content/v1/parser';
+    ENV.APP.BLOG = 'http://www.forloveandlemons.com/blog';
+    ENV.APP.PARSER = 'https://readability.com/api/content/v1/parser';
 
     ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com https://readability.com";
 

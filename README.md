@@ -1,7 +1,8 @@
 # Sqaurespace-adapter
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Demonstration of using Ember Data adapters and serializers to read another website into an Ember app. Inspired by Godfrey Chan's demo at EmberConf 2015. Uses Readability and CORS-Anywhere.
+
+Reads from the blog (For Love and Lemons)[http://www.forloveandlemons.com/blog]. Go to localhost:4200/posts/\<slug-of-blog-post-here\> to see it in action.
 
 ## Prerequisites
 
