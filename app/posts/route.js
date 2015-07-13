@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-    model: function(){
-        return this.store.find("post", "girls-of-summer-jessica-morrow");
+    model: function(parameters){
+        return this.store.find("post", parameters.slug);
     },
     setupController: function(controller, model){
         controller.set("post", model);
