@@ -16,13 +16,14 @@ module.exports = function(environment) {
         APP: {
             // Here you can pass flags/options to your application instance
             // when it is created
+            READABILITY_TOKEN: 'your-readability-token-here'
         },
         contentSecurityPolicy: {
         }
     };
 
     ENV.APP.CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
-    ENV.APP.BLOG = 'http://www.forloveandlemons.com/blog';
+    ENV.APP.BLOG = 'http://daringfireball.net';
     ENV.APP.PARSER = 'https://readability.com/api/content/v1/parser';
 
     ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com https://readability.com";
