@@ -1,5 +1,4 @@
 import ApplicationAdapter from './application';
-import Ember from 'ember';
 
 export default ApplicationAdapter.extend({
     urlForFind: function(id, modelName, snapshot) {
