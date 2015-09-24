@@ -1,7 +1,7 @@
 import ApplicationAdapter from './application';
 
 export default ApplicationAdapter.extend({
-    urlForFind: function(id, modelName, snapshot) {
+    urlForFindRecord: function(id, modelName, snapshot) {
         id = "?url=" + encodeURIComponent(this.get("blog")) + "/2015/09/" + encodeURIComponent(id);
         id += "&token=" + this.get("token");
         modelName = "";
